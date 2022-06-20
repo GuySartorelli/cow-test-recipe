@@ -1,0 +1,11 @@
+{
+    "github-slug": "GuySartorelli/cow-test-recipe",
+    "changelog-holder": "silverstripe/framework",
+    "changelog-path": "changelogs/{stability}/{version}.md",
+    "changelog-include-other-changes": false,
+    "dependency-constraint": "loose",
+    "vendors": [
+      "guysartorelli"
+    ]
+  }
+  

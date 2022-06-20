@@ -11,7 +11,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "silverstripe/recipe-plugin": "^1",
-        "guysartorelli/cow-test-package": "dev-main || ^0 || ^1 || ^2"
+        "guysartorelli/cow-test-package": "~1.1.0@rc"
     },
     "config": {
         "process-timeout": 600,

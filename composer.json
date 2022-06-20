@@ -2,6 +2,12 @@
     "name": "guysartorelli/cow-test-recipe",
     "type": "silverstripe-recipe",
     "description": "A recipe for testing silverstripe/cow",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/GuySartorelli/cow-test-package"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "silverstripe/recipe-plugin": "^1",

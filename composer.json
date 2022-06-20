@@ -1,0 +1,20 @@
+{
+    "name": "guysartorelli/cow-test-recipe",
+    "type": "silverstripe-recipe",
+    "description": "A recipe for testing silverstripe/cow",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "silverstripe/recipe-plugin": "^1",
+        "guysartorelli/cow-test-package": "dev-master || ^0 || ^1 || ^2"
+    },
+    "config": {
+        "process-timeout": 600,
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
